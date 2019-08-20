@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="resolve-web:war">
+    <output-path>$PROJECT_DIR$/../resolve-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>resolve-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="resolve-web.war">
+      <element id="artifact" artifact-name="resolve-web:war exploded" />
+    </root>
+  </artifact>
+</component>
